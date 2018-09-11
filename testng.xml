@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ImoocSuite">
+    <listeners>
+        <listener class-name="com.mike.selenium.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+    <test name="testLogin">
+        <classes>
+            <class name="com.mike.selenium.testCase.testHomePage"/>
+        </classes>
+    </test>
+</suite>
